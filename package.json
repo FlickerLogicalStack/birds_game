@@ -1,0 +1,16 @@
+{
+  "name": "game_1",
+  "private": true,
+  "scripts": {
+    "build": "bun run build.ts",
+    "dev": "bun run watch.ts",
+    "check-types": "bunx tsc --noEmit",
+    "check-types:watch": "bunx tsc --noEmit --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
